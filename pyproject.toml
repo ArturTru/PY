@@ -1,74 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "pyCourse"
-version = "0.0.3"
-description = "Project for students to complete homeworkы for the course automated testing in Python"
+name = "contact-list-qa"
+version = "1.0.0"
+description = "Pytest + Playwright tests for qa-sendbox.org Contact List App"
 readme = "README.md"
 requires-python = ">=3.9"
-
-[tool.ruff]
-exclude = [
-    ".venv",
-    "tests"
-]
-output-format = 'github'
-line-length = 120
-
-[tool.mypy]
-install_types = true
-non_interactive = true
-ignore_missing_imports = true
-exclude = [
-    "venv",
-    "tests"
+dependencies = [
+    "pytest>=7.0.0",
+    "pytest-timeout>=2.1.0",
+    "playwright>=1.40.0",
 ]
 
-[tool.pylint.MASTER]
-argument-naming-style = "snake_case"
-variable-naming-style = "snake_case"
-function-naming-style = "snake_case"
-method-naming-style = "snake_case"
-module-naming-style = "snake_case"
-ignore-paths = [
-    'venv/*',
-    'tests/*'
-]
-disable = [
-    "raw-checker-failed",
-    "bad-inline-option",
-    "locally-disabled",
-    "file-ignored",
-    "suppressed-message",
-    "useless-suppression",
-    "deprecated-pragma",
-    "use-symbolic-message-instead",
-    "use-implicit-booleaness-not-comparison-to-string",
-    "use-implicit-booleaness-not-comparison-to-zero",
-    "empty-docstring",
-    "invalid-name",
-    "line-too-long",
-    "missing-module-docstring",
-    "missing-class-docstring",
-    "missing-function-docstring",
-    "no-else-return",
-    "too-few-public-methods"
-]
-
-[tool.pylint.format]
-max-line-length = 120
-
-
-[tool.flake8]
-max-line-length = 120
-count = true
-statistics = true
-show-source = true
-max-complexity = 10
-exclude = [
-    ".git",
-    "__pycache__",
-    "venv",
-    "tests"
-]
-extend-ignore = [
-    "E501"
-]
+[tool.setuptools]
+packages = ["config"]
