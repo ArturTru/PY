@@ -21,5 +21,10 @@ htmlcov/
 # IDE
 .idea/
 
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
 # Project
 reports/screenshots/
