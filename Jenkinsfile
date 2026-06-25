@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        dockerfile {
-            filename 'Dockerfile'
-        }
-    }
+    agent any // Запускаем пайплайн на самом Дженкинсе, без докер-агента
 
     stages {
         stage('Checkout') {
@@ -12,12 +8,12 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('Build & Test') {
             steps {
+                // Дженкинс сам соберет образ и запустит тесты через обычные shell-команды
                 sh '''
-                    pip install -e .
-                    playwright install chromium
-                    pytest tests/ -v --alluredir=allure-results
+                    docker build -t playwright-tests .
+                    docker run --rm -v ${WORKSPACE}/allure-results:/app/allure-results playwright-tests
                 '''
             }
         }
@@ -25,9 +21,7 @@ pipeline {
 
     post {
         always {
-            // Дженкинс заберет результаты и превратит их в красивый граф
-            allure includeProperties: false, jdq: '', results: [[path: 'allure-results']]
+            allure includeProperties: false, results: [[path: 'allure-results']]
         }
     }
 }
-
