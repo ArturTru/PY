@@ -1,19 +1,18 @@
 pipeline {
-    agent any // Запускаем пайплайн на самом Дженкинсе, без докер-агента
+    agent {
+        docker {
+            image 'python:3.11-slim'
+            args '-v /var/run/docker.sock:/var/run/docker.sock'
+        }
+    }
 
     stages {
-        stage('Checkout') {
+        stage('Install & Test') {
             steps {
-                checkout scm
-            }
-        }
-
-        stage('Build & Test') {
-            steps {
-                // Дженкинс сам соберет образ и запустит тесты через обычные shell-команды
                 sh '''
-                    docker build -t playwright-tests .
-                    docker run --rm -v ${WORKSPACE}/allure-results:/app/allure-results playwright-tests
+                    pip install -e .
+                    playwright install chromium
+                    pytest tests/ -v --alluredir=allure-results
                 '''
             }
         }
