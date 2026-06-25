@@ -1,0 +1,70 @@
+2026-06-25 14:58:03 [INFO] START: test_favorite_toggle
+2026-06-25 14:58:03 [INFO] Step 1: Set favorite to true
+2026-06-25 14:58:03 [INFO] Step 2: Set favorite to false
+2026-06-25 14:58:03 [INFO] Cleanup: Delete contact ID: 1152
+2026-06-25 14:58:03 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 14:58:25 [INFO] START: test_favorite_toggle
+2026-06-25 14:58:26 [INFO] Step 1: Set favorite to true
+2026-06-25 14:58:26 [INFO] Step 2: Set favorite to false
+2026-06-25 14:58:26 [INFO] Cleanup: Delete contact ID: 1154
+2026-06-25 14:58:26 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 17:23:12 [INFO] START: test_favorite_toggle
+2026-06-25 17:23:12 [INFO] Step 1: Set favorite to true
+2026-06-25 17:23:12 [INFO] Step 2: Set favorite to false
+2026-06-25 17:23:12 [INFO] Cleanup: Delete contact ID: 1162
+2026-06-25 17:23:12 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 17:27:43 [INFO] START: test_favorite_toggle
+2026-06-25 17:27:44 [INFO] Step 1: Set favorite to true
+2026-06-25 17:27:44 [INFO] Step 2: Set favorite to false
+2026-06-25 17:27:44 [INFO] Cleanup: Delete contact ID: 1164
+2026-06-25 17:27:44 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 18:49:22 [INFO] START: test_favorite_toggle
+2026-06-25 18:49:22 [INFO] Step 1: Set favorite to true
+2026-06-25 18:49:22 [INFO] Step 2: Set favorite to false
+2026-06-25 18:49:22 [INFO] Cleanup: Delete contact ID: 1181
+2026-06-25 18:49:22 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 18:57:41 [INFO] START: test_favorite_toggle
+2026-06-25 18:57:41 [INFO] Step 1: Set favorite to true
+2026-06-25 18:57:41 [INFO] Step 2: Set favorite to false
+2026-06-25 18:57:41 [INFO] Cleanup: Delete contact ID: 1189
+2026-06-25 18:57:41 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 21:37:33 [INFO] START: test_favorite_toggle
+2026-06-25 21:37:33 [INFO] Step 1: Set favorite to true
+2026-06-25 21:37:33 [INFO] Step 2: Set favorite to false
+2026-06-25 21:37:33 [INFO] Cleanup: Delete contact ID: 1197
+2026-06-25 21:37:33 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 21:41:05 [INFO] START: test_favorite_toggle
+2026-06-25 21:41:05 [INFO] Step 1: Set favorite to true
+2026-06-25 21:41:05 [INFO] Step 2: Set favorite to false
+2026-06-25 21:41:05 [INFO] Cleanup: Delete contact ID: 1205
+2026-06-25 21:41:05 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 21:52:25 [INFO] START: test_favorite_toggle
+2026-06-25 21:52:25 [INFO] Step 1: Set favorite to true
+2026-06-25 21:52:25 [INFO] Step 2: Set favorite to false
+2026-06-25 21:52:25 [INFO] Cleanup: Delete contact ID: 1213
+2026-06-25 21:52:25 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 21:55:48 [INFO] START: test_favorite_toggle
+2026-06-25 21:55:48 [INFO] Step 1: Set favorite to true
+2026-06-25 21:55:48 [INFO] Step 2: Set favorite to false
+2026-06-25 21:55:48 [INFO] Cleanup: Delete contact ID: 1221
+2026-06-25 21:55:48 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-25 23:57:53 [INFO] START: test_favorite_toggle
+2026-06-25 23:57:53 [INFO] Step 1: Set favorite to true
+2026-06-25 23:57:53 [INFO] Step 2: Set favorite to false
+2026-06-25 23:57:53 [INFO] Cleanup: Delete contact ID: 1229
+2026-06-25 23:57:53 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-26 00:01:26 [INFO] START: test_favorite_toggle
+2026-06-26 00:01:26 [INFO] Step 1: Set favorite to true
+2026-06-26 00:01:26 [INFO] Step 2: Set favorite to false
+2026-06-26 00:01:26 [INFO] Cleanup: Delete contact ID: 1237
+2026-06-26 00:01:27 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-26 00:04:24 [INFO] START: test_favorite_toggle
+2026-06-26 00:04:24 [INFO] Step 1: Set favorite to true
+2026-06-26 00:04:24 [INFO] Step 2: Set favorite to false
+2026-06-26 00:04:24 [INFO] Cleanup: Delete contact ID: 1245
+2026-06-26 00:04:24 [INFO] FINISH: test_favorite_toggle SUCCESS
+2026-06-26 00:12:07 [INFO] START: test_favorite_toggle
+2026-06-26 00:12:07 [INFO] Step 1: Set favorite to true
+2026-06-26 00:12:07 [INFO] Step 2: Set favorite to false
+2026-06-26 00:12:07 [INFO] Cleanup: Delete contact ID: 1253
+2026-06-26 00:12:07 [INFO] FINISH: test_favorite_toggle SUCCESS

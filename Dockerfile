@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -e . && playwright install chromium
 
 ENV HEADLESS_MODE=True
 
-CMD ["pytest", "tests/", "-v", "--tb=short"]
+CMD ["pytest", "tests/", "-v", "--tb=short", "--alluredir=allure-results"]

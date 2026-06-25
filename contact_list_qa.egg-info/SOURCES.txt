@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+config/__init__.py
+config/settings.py
+contact_list_qa.egg-info/PKG-INFO
+contact_list_qa.egg-info/SOURCES.txt
+contact_list_qa.egg-info/dependency_links.txt
+contact_list_qa.egg-info/requires.txt
+contact_list_qa.egg-info/top_level.txt

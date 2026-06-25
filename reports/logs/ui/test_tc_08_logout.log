@@ -1,0 +1,75 @@
+2026-06-25 14:59:24 [INFO] START: test_tc_08_logout
+2026-06-25 14:59:24 [INFO] Login as user: testuser@example.com
+2026-06-25 14:59:26 [INFO] Perform logout
+2026-06-25 14:59:30 [INFO] Verify login button is visible after logout
+2026-06-25 14:59:30 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 17:28:47 [INFO] START: test_tc_08_logout
+2026-06-25 17:28:47 [INFO] Login as user: testuser@example.com
+2026-06-25 17:28:49 [INFO] Perform logout
+2026-06-25 17:28:53 [INFO] Verify login button is visible after logout
+2026-06-25 17:28:53 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 17:33:44 [INFO] START: test_tc_08_logout
+2026-06-25 17:33:44 [INFO] Login as user: testuser@example.com
+2026-06-25 17:33:46 [INFO] Perform logout
+2026-06-25 17:33:51 [INFO] Verify login button is visible after logout
+2026-06-25 17:33:51 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 18:37:36 [INFO] START: test_tc_08_logout
+2026-06-25 18:37:36 [INFO] Login as user: testuser@example.com
+2026-06-25 18:37:39 [INFO] Perform logout
+2026-06-25 18:37:44 [INFO] Verify login button is visible after logout
+2026-06-25 18:37:44 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 18:40:12 [INFO] START: test_tc_08_logout
+2026-06-25 18:40:12 [INFO] Login as user: testuser@example.com
+2026-06-25 18:40:14 [INFO] Perform logout
+2026-06-25 18:40:19 [INFO] Verify login button is visible after logout
+2026-06-25 18:40:19 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 18:49:10 [INFO] START: test_tc_08_logout
+2026-06-25 18:49:10 [INFO] Login as user: testuser@example.com
+2026-06-25 18:49:12 [INFO] Perform logout
+2026-06-25 18:49:17 [INFO] Verify login button is visible after logout
+2026-06-25 18:49:17 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 18:58:46 [INFO] START: test_tc_08_logout
+2026-06-25 18:58:46 [INFO] Login as user: testuser@example.com
+2026-06-25 18:58:48 [INFO] Perform logout
+2026-06-25 18:58:53 [INFO] Verify login button is visible after logout
+2026-06-25 18:58:53 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 21:38:19 [INFO] START: test_tc_08_logout
+2026-06-25 21:38:19 [INFO] Login as user: testuser@example.com
+2026-06-25 21:38:21 [INFO] Perform logout
+2026-06-25 21:38:26 [INFO] Verify login button is visible after logout
+2026-06-25 21:38:26 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 21:41:54 [INFO] START: test_tc_08_logout
+2026-06-25 21:41:54 [INFO] Login as user: testuser@example.com
+2026-06-25 21:41:55 [INFO] Perform logout
+2026-06-25 21:42:00 [INFO] Verify login button is visible after logout
+2026-06-25 21:42:00 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 21:53:15 [INFO] START: test_tc_08_logout
+2026-06-25 21:53:15 [INFO] Login as user: testuser@example.com
+2026-06-25 21:53:17 [INFO] Perform logout
+2026-06-25 21:53:21 [INFO] Verify login button is visible after logout
+2026-06-25 21:53:21 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 21:56:34 [INFO] START: test_tc_08_logout
+2026-06-25 21:56:34 [INFO] Login as user: testuser@example.com
+2026-06-25 21:56:35 [INFO] Perform logout
+2026-06-25 21:56:40 [INFO] Verify login button is visible after logout
+2026-06-25 21:56:40 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-25 23:58:47 [INFO] START: test_tc_08_logout
+2026-06-25 23:58:47 [INFO] Login as user: testuser@example.com
+2026-06-25 23:58:49 [INFO] Perform logout
+2026-06-25 23:58:53 [INFO] Verify login button is visible after logout
+2026-06-25 23:58:53 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-26 00:02:14 [INFO] START: test_tc_08_logout
+2026-06-26 00:02:14 [INFO] Login as user: testuser@example.com
+2026-06-26 00:02:15 [INFO] Perform logout
+2026-06-26 00:02:20 [INFO] Verify login button is visible after logout
+2026-06-26 00:02:20 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-26 00:05:13 [INFO] START: test_tc_08_logout
+2026-06-26 00:05:13 [INFO] Login as user: testuser@example.com
+2026-06-26 00:05:14 [INFO] Perform logout
+2026-06-26 00:05:19 [INFO] Verify login button is visible after logout
+2026-06-26 00:05:19 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-26 00:12:58 [INFO] START: test_tc_08_logout
+2026-06-26 00:12:58 [INFO] Login as user: testuser@example.com
+2026-06-26 00:13:00 [INFO] Perform logout
+2026-06-26 00:13:04 [INFO] Verify login button is visible after logout
+2026-06-26 00:13:04 [INFO] FINISH: test_tc_08_logout SUCCESS

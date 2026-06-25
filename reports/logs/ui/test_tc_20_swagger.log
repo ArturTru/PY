@@ -1,0 +1,52 @@
+2026-06-25 14:59:13 [INFO] START: test_tc_20_swagger
+2026-06-25 14:59:13 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 14:59:13 [INFO] Verify page source context includes openapi definitions
+2026-06-25 14:59:13 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 17:28:34 [INFO] START: test_tc_20_swagger
+2026-06-25 17:28:34 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 17:28:35 [INFO] Verify page source context includes openapi definitions
+2026-06-25 17:28:35 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 18:46:02 [INFO] START: test_tc_20_swagger
+2026-06-25 18:46:02 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 18:46:02 [INFO] Verify page source context includes openapi definitions
+2026-06-25 18:46:02 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 18:50:17 [INFO] START: test_tc_20_swagger
+2026-06-25 18:50:17 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 18:50:18 [INFO] Verify page source context includes openapi definitions
+2026-06-25 18:50:18 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 18:58:31 [INFO] START: test_tc_20_swagger
+2026-06-25 18:58:31 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 18:58:32 [INFO] Verify page source context includes openapi definitions
+2026-06-25 18:58:32 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 21:38:10 [INFO] START: test_tc_20_swagger
+2026-06-25 21:38:10 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 21:38:10 [INFO] Verify page source context includes openapi definitions
+2026-06-25 21:38:10 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 21:41:43 [INFO] START: test_tc_20_swagger
+2026-06-25 21:41:43 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 21:41:44 [INFO] Verify page source context includes openapi definitions
+2026-06-25 21:41:44 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 21:53:05 [INFO] START: test_tc_20_swagger
+2026-06-25 21:53:06 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 21:53:06 [INFO] Verify page source context includes openapi definitions
+2026-06-25 21:53:06 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 21:56:24 [INFO] START: test_tc_20_swagger
+2026-06-25 21:56:24 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 21:56:25 [INFO] Verify page source context includes openapi definitions
+2026-06-25 21:56:25 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-25 23:58:35 [INFO] START: test_tc_20_swagger
+2026-06-25 23:58:35 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-25 23:58:36 [INFO] Verify page source context includes openapi definitions
+2026-06-25 23:58:36 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-26 00:02:04 [INFO] START: test_tc_20_swagger
+2026-06-26 00:02:04 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-26 00:02:05 [INFO] Verify page source context includes openapi definitions
+2026-06-26 00:02:05 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-26 00:05:02 [INFO] START: test_tc_20_swagger
+2026-06-26 00:05:02 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-26 00:05:03 [INFO] Verify page source context includes openapi definitions
+2026-06-26 00:05:03 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-26 00:12:48 [INFO] START: test_tc_20_swagger
+2026-06-26 00:12:48 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-26 00:12:49 [INFO] Verify page source context includes openapi definitions
+2026-06-26 00:12:49 [INFO] FINISH: test_tc_20_swagger SUCCESS

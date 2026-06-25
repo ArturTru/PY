@@ -17,7 +17,7 @@ pipeline {
                 sh '''
                     pip install -e .
                     playwright install chromium
-                    pytest tests/ -v
+                    pytest tests/ -v --alluredir=allure-results
                 '''
             }
         }
@@ -25,7 +25,9 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'reports/**', allowEmptyArchive: true
+            // Дженкинс заберет результаты и превратит их в красивый граф
+            allure includeProperties: false, jdq: '', results: [[path: 'allure-results']]
         }
     }
 }
+

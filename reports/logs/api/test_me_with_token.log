@@ -1,0 +1,45 @@
+2026-06-25 14:55:24 [INFO] START: test_me_with_token
+2026-06-25 14:55:24 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 14:55:24 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 14:59:14 [INFO] START: test_me_with_token
+2026-06-25 14:59:14 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 14:59:14 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 17:28:36 [INFO] START: test_me_with_token
+2026-06-25 17:28:36 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 17:28:36 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 18:48:59 [INFO] START: test_me_with_token
+2026-06-25 18:48:59 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 18:49:00 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 18:58:33 [INFO] START: test_me_with_token
+2026-06-25 18:58:33 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 18:58:33 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 19:08:57 [INFO] START: test_me_with_token
+2026-06-25 19:08:57 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 19:08:57 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 19:10:57 [INFO] START: test_me_with_token
+2026-06-25 19:10:57 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 19:10:57 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 21:38:11 [INFO] START: test_me_with_token
+2026-06-25 21:38:11 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 21:38:11 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 21:41:45 [INFO] START: test_me_with_token
+2026-06-25 21:41:45 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 21:41:45 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 21:53:07 [INFO] START: test_me_with_token
+2026-06-25 21:53:07 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 21:53:07 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 21:56:26 [INFO] START: test_me_with_token
+2026-06-25 21:56:26 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 21:56:26 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-25 23:58:37 [INFO] START: test_me_with_token
+2026-06-25 23:58:37 [INFO] Send GET request to /api/auth/me with token
+2026-06-25 23:58:37 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-26 00:02:05 [INFO] START: test_me_with_token
+2026-06-26 00:02:05 [INFO] Send GET request to /api/auth/me with token
+2026-06-26 00:02:06 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-26 00:05:04 [INFO] START: test_me_with_token
+2026-06-26 00:05:04 [INFO] Send GET request to /api/auth/me with token
+2026-06-26 00:05:04 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-26 00:12:49 [INFO] START: test_me_with_token
+2026-06-26 00:12:49 [INFO] Send GET request to /api/auth/me with token
+2026-06-26 00:12:50 [INFO] FINISH: test_me_with_token SUCCESS

@@ -28,3 +28,7 @@ Desktop.ini
 
 # Project
 reports/screenshots/
+
+# Allure reports
+allure-results/
+allure-report/
