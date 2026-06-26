@@ -50,3 +50,19 @@
 2026-06-26 00:12:25 [INFO] Navigate to registration and submit existing email: testuser@example.com
 2026-06-26 00:12:25 [INFO] Verify stay on register page
 2026-06-26 00:12:25 [INFO] FINISH: test_tc_12_register_existing_email SUCCESS
+2026-06-26 10:04:57 [INFO] START: test_tc_12_register_existing_email
+2026-06-26 10:04:57 [INFO] Navigate to registration and submit existing email: testuser@example.com
+2026-06-26 10:04:57 [INFO] Verify stay on register page
+2026-06-26 10:04:57 [INFO] FINISH: test_tc_12_register_existing_email SUCCESS
+2026-06-26 10:06:16 [INFO] START: test_tc_12_register_existing_email
+2026-06-26 10:06:16 [INFO] Navigate to registration and submit existing email: testuser@example.com
+2026-06-26 10:06:17 [INFO] Verify stay on register page
+2026-06-26 10:06:17 [INFO] FINISH: test_tc_12_register_existing_email SUCCESS
+2026-06-26 10:17:11 [INFO] START: test_tc_12_register_existing_email
+2026-06-26 10:17:11 [INFO] Navigate to registration and submit existing email: testuser@example.com
+2026-06-26 10:17:12 [INFO] Verify stay on register page
+2026-06-26 10:17:12 [INFO] FINISH: test_tc_12_register_existing_email SUCCESS
+2026-06-26 17:51:38 [INFO] START: test_tc_12_register_existing_email
+2026-06-26 17:51:38 [INFO] Navigate to registration and submit existing email: testuser@example.com
+2026-06-26 17:51:39 [INFO] Verify stay on register page
+2026-06-26 17:51:39 [INFO] FINISH: test_tc_12_register_existing_email SUCCESS

@@ -81,3 +81,25 @@
 2026-06-26 00:12:44 [INFO] Apply 'friends' filter group
 2026-06-26 00:12:45 [INFO] Verify 'work' contact disappeared from layout
 2026-06-26 00:12:45 [INFO] FINISH: test_tc_18_filter_by_group SUCCESS
+2026-06-26 10:05:15 [INFO] START: test_tc_18_filter_by_group
+2026-06-26 10:05:15 [INFO] Add contact to 'work' group: Work 73ef58
+2026-06-26 10:05:16 [INFO] Apply 'work' filter group
+2026-06-26 10:05:16 [INFO] Apply 'friends' filter group
+2026-06-26 10:05:17 [INFO] Verify 'work' contact disappeared from layout
+2026-06-26 10:05:17 [INFO] FINISH: test_tc_18_filter_by_group SUCCESS
+2026-06-26 10:06:34 [INFO] START: test_tc_18_filter_by_group
+2026-06-26 10:06:34 [INFO] Add contact to 'work' group: Work eca579
+2026-06-26 10:17:29 [INFO] START: test_tc_18_filter_by_group
+2026-06-26 10:17:29 [INFO] Add contact to 'work' group: Work ff1a7e
+2026-06-26 10:52:57 [INFO] START: test_tc_18_filter_by_group
+2026-06-26 10:52:57 [INFO] Add contact to 'work' group: Work 829c15
+2026-06-26 10:52:57 [INFO] Apply 'work' filter group
+2026-06-26 10:52:58 [INFO] Apply 'friends' filter group
+2026-06-26 10:52:58 [INFO] Verify 'work' contact disappeared from layout
+2026-06-26 10:52:58 [INFO] FINISH: test_tc_18_filter_by_group SUCCESS
+2026-06-26 17:51:52 [INFO] START: test_tc_18_filter_by_group
+2026-06-26 17:51:52 [INFO] Add contact to 'work' group: Work c788c0
+2026-06-26 17:51:53 [INFO] Apply 'work' filter group
+2026-06-26 17:51:53 [INFO] Apply 'friends' filter group
+2026-06-26 17:51:54 [INFO] Verify 'work' contact disappeared from layout
+2026-06-26 17:51:54 [INFO] FINISH: test_tc_18_filter_by_group SUCCESS

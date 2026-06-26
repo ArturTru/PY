@@ -63,3 +63,23 @@
 2026-06-26 00:12:09 [INFO] Login with new credentials
 2026-06-26 00:12:10 [INFO] Verify redirect to contacts page
 2026-06-26 00:12:10 [INFO] FINISH: test_tc_03_register_and_login SUCCESS
+2026-06-26 10:04:39 [INFO] START: test_tc_03_register_and_login
+2026-06-26 10:04:39 [INFO] Register new user: reg_45c64e5048de@example.com
+2026-06-26 10:04:42 [INFO] Login with new credentials
+2026-06-26 10:04:43 [INFO] Verify redirect to contacts page
+2026-06-26 10:04:43 [INFO] FINISH: test_tc_03_register_and_login SUCCESS
+2026-06-26 10:06:01 [INFO] START: test_tc_03_register_and_login
+2026-06-26 10:06:01 [INFO] Register new user: reg_5d21334ae605@example.com
+2026-06-26 10:06:02 [INFO] Login with new credentials
+2026-06-26 10:06:03 [INFO] Verify redirect to contacts page
+2026-06-26 10:06:03 [INFO] FINISH: test_tc_03_register_and_login SUCCESS
+2026-06-26 10:16:55 [INFO] START: test_tc_03_register_and_login
+2026-06-26 10:16:55 [INFO] Register new user: reg_292363eb56fa@example.com
+2026-06-26 10:16:57 [INFO] Login with new credentials
+2026-06-26 10:16:58 [INFO] Verify redirect to contacts page
+2026-06-26 10:16:58 [INFO] FINISH: test_tc_03_register_and_login SUCCESS
+2026-06-26 17:51:22 [INFO] START: test_tc_03_register_and_login
+2026-06-26 17:51:22 [INFO] Register new user: reg_21b55fc7a74e@example.com
+2026-06-26 17:51:26 [INFO] Login with new credentials
+2026-06-26 17:51:27 [INFO] Verify redirect to contacts page
+2026-06-26 17:51:27 [INFO] FINISH: test_tc_03_register_and_login SUCCESS

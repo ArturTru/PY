@@ -62,3 +62,23 @@
 2026-06-26 00:12:41 [INFO] Sort contacts list by favorite parameter
 2026-06-26 00:12:41 [INFO] Verify sorting dropdown state and card styling
 2026-06-26 00:12:41 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS
+2026-06-26 10:05:10 [INFO] START: test_tc_17_sort_by_favorite
+2026-06-26 10:05:10 [INFO] Add contact and set to favorites: Fav a2e149
+2026-06-26 10:05:13 [INFO] Sort contacts list by favorite parameter
+2026-06-26 10:05:13 [INFO] Verify sorting dropdown state and card styling
+2026-06-26 10:05:13 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS
+2026-06-26 10:06:29 [INFO] START: test_tc_17_sort_by_favorite
+2026-06-26 10:06:29 [INFO] Add contact and set to favorites: Fav 071423
+2026-06-26 10:06:31 [INFO] Sort contacts list by favorite parameter
+2026-06-26 10:06:32 [INFO] Verify sorting dropdown state and card styling
+2026-06-26 10:06:32 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS
+2026-06-26 10:17:25 [INFO] START: test_tc_17_sort_by_favorite
+2026-06-26 10:17:25 [INFO] Add contact and set to favorites: Fav 75cd9e
+2026-06-26 10:17:26 [INFO] Sort contacts list by favorite parameter
+2026-06-26 10:17:27 [INFO] Verify sorting dropdown state and card styling
+2026-06-26 10:17:27 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS
+2026-06-26 17:51:49 [INFO] START: test_tc_17_sort_by_favorite
+2026-06-26 17:51:49 [INFO] Add contact and set to favorites: Fav 5668d8
+2026-06-26 17:51:50 [INFO] Sort contacts list by favorite parameter
+2026-06-26 17:51:50 [INFO] Verify sorting dropdown state and card styling
+2026-06-26 17:51:50 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS

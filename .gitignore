@@ -27,7 +27,7 @@ ehthumbs.db
 Desktop.ini
 
 # Project
-reports/screenshots/
+reports/
 
 # Allure reports
 allure-results/

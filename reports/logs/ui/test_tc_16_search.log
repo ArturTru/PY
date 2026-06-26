@@ -63,3 +63,23 @@
 2026-06-26 00:12:38 [INFO] Perform search query for name: Search e11ac0
 2026-06-26 00:12:38 [INFO] Verify matched contact is visible
 2026-06-26 00:12:38 [INFO] FINISH: test_tc_16_search SUCCESS
+2026-06-26 10:05:07 [INFO] START: test_tc_16_search
+2026-06-26 10:05:07 [INFO] Add contact to search for: Search b5e850
+2026-06-26 10:05:07 [INFO] Perform search query for name: Search b5e850
+2026-06-26 10:05:07 [INFO] Verify matched contact is visible
+2026-06-26 10:05:07 [INFO] FINISH: test_tc_16_search SUCCESS
+2026-06-26 10:06:26 [INFO] START: test_tc_16_search
+2026-06-26 10:06:26 [INFO] Add contact to search for: Search 227a4d
+2026-06-26 10:06:27 [INFO] Perform search query for name: Search 227a4d
+2026-06-26 10:06:27 [INFO] Verify matched contact is visible
+2026-06-26 10:06:27 [INFO] FINISH: test_tc_16_search SUCCESS
+2026-06-26 10:17:20 [INFO] START: test_tc_16_search
+2026-06-26 10:17:20 [INFO] Add contact to search for: Search a2ea03
+2026-06-26 10:17:23 [INFO] Perform search query for name: Search a2ea03
+2026-06-26 10:17:23 [INFO] Verify matched contact is visible
+2026-06-26 10:17:23 [INFO] FINISH: test_tc_16_search SUCCESS
+2026-06-26 17:51:47 [INFO] START: test_tc_16_search
+2026-06-26 17:51:47 [INFO] Add contact to search for: Search 91508c
+2026-06-26 17:51:47 [INFO] Perform search query for name: Search 91508c
+2026-06-26 17:51:47 [INFO] Verify matched contact is visible
+2026-06-26 17:51:47 [INFO] FINISH: test_tc_16_search SUCCESS

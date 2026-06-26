@@ -50,3 +50,19 @@
 2026-06-26 00:12:32 [INFO] Submit registration with invalid email pattern
 2026-06-26 00:12:34 [INFO] Verify stay on register page
 2026-06-26 00:12:34 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS
+2026-06-26 10:05:02 [INFO] START: test_tc_15_bad_email_on_register
+2026-06-26 10:05:02 [INFO] Submit registration with invalid email pattern
+2026-06-26 10:05:04 [INFO] Verify stay on register page
+2026-06-26 10:05:04 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS
+2026-06-26 10:06:23 [INFO] START: test_tc_15_bad_email_on_register
+2026-06-26 10:06:23 [INFO] Submit registration with invalid email pattern
+2026-06-26 10:06:24 [INFO] Verify stay on register page
+2026-06-26 10:06:24 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS
+2026-06-26 10:17:17 [INFO] START: test_tc_15_bad_email_on_register
+2026-06-26 10:17:17 [INFO] Submit registration with invalid email pattern
+2026-06-26 10:17:18 [INFO] Verify stay on register page
+2026-06-26 10:17:18 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS
+2026-06-26 17:51:44 [INFO] START: test_tc_15_bad_email_on_register
+2026-06-26 17:51:44 [INFO] Submit registration with invalid email pattern
+2026-06-26 17:51:45 [INFO] Verify stay on register page
+2026-06-26 17:51:45 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS
