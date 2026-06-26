@@ -1,13 +1,14 @@
 pipeline {
-    agent {
-        docker {
-            image 'python:3.11-slim'
-            args '-u root -v /var/run/docker.sock:/var/run/docker.sock'
-        }
-    }
+    agent none // Global agetn off
 
     stages {
         stage('Install & Test') {
+            agent {
+                docker {
+                    image 'python:3.11-slim'
+                    args '-u root -v /var/run/docker.sock:/var/run/docker.sock'
+                }
+            }
             steps {
                 sh '''
                     pip install -e .
@@ -21,7 +22,10 @@ pipeline {
 
     post {
         always {
-            allure includeProperties: false, results: [[path: 'allure-results']]
+            // Этот блок выполнится на самом Jenkins (вне контейнера Python), где Java доступна
+            node {
+                allure includeProperties: false, results: [[path: 'allure-results']]
+            }
         }
     }
 }
