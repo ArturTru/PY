@@ -83,3 +83,8 @@
 2026-06-26 17:51:26 [INFO] Login with new credentials
 2026-06-26 17:51:27 [INFO] Verify redirect to contacts page
 2026-06-26 17:51:27 [INFO] FINISH: test_tc_03_register_and_login SUCCESS
+2026-06-26 18:57:17 [INFO] START: test_tc_03_register_and_login
+2026-06-26 18:57:17 [INFO] Register new user: reg_bdedf1f051e9@example.com
+2026-06-26 18:57:21 [INFO] Login with new credentials
+2026-06-26 18:57:22 [INFO] Verify redirect to contacts page
+2026-06-26 18:57:22 [INFO] FINISH: test_tc_03_register_and_login SUCCESS

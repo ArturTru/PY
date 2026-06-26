@@ -87,3 +87,8 @@
 2026-06-26 17:51:43 [INFO] Open contact form modal and submit empty form
 2026-06-26 17:51:43 [INFO] Verify modal stays open and contact list count didn't change
 2026-06-26 17:51:43 [INFO] FINISH: test_tc_14_contact_without_required_fields SUCCESS
+2026-06-26 18:57:38 [INFO] START: test_tc_14_contact_without_required_fields
+2026-06-26 18:57:38 [INFO] Check initial contacts list length
+2026-06-26 18:57:38 [INFO] Open contact form modal and submit empty form
+2026-06-26 18:57:39 [INFO] Verify modal stays open and contact list count didn't change
+2026-06-26 18:57:39 [INFO] FINISH: test_tc_14_contact_without_required_fields SUCCESS

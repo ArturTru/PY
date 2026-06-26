@@ -66,3 +66,7 @@
 2026-06-26 17:51:34 [INFO] Try login as non-existing user: ghost_85449f3682c8@example.com
 2026-06-26 17:51:36 [INFO] Verify login failed error
 2026-06-26 17:51:36 [INFO] FINISH: test_tc_10_unknown_user SUCCESS
+2026-06-26 18:57:30 [INFO] START: test_tc_10_unknown_user
+2026-06-26 18:57:30 [INFO] Try login as non-existing user: ghost_d6346a48117f@example.com
+2026-06-26 18:57:31 [INFO] Verify login failed error
+2026-06-26 18:57:31 [INFO] FINISH: test_tc_10_unknown_user SUCCESS

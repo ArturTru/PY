@@ -66,3 +66,7 @@
 2026-06-26 17:51:56 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
 2026-06-26 17:51:57 [INFO] Verify page source context includes openapi definitions
 2026-06-26 17:51:57 [INFO] FINISH: test_tc_20_swagger SUCCESS
+2026-06-26 18:57:52 [INFO] START: test_tc_20_swagger
+2026-06-26 18:57:52 [INFO] Navigate to Swagger documentation URL: https://qa-sendbox.org/api/docs
+2026-06-26 18:57:52 [INFO] Verify page source context includes openapi definitions
+2026-06-26 18:57:52 [INFO] FINISH: test_tc_20_swagger SUCCESS

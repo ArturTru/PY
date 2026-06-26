@@ -1,5 +1,5 @@
 import pytest
-from helpers.api_client import api_request, create_contact, delete_contact
+from helpers.api_client import api_request, create_contact, delete_contact, get_contact
 from helpers.app_flows import unique_email
 
 
@@ -18,7 +18,7 @@ def test_contact_crud(app_url, api_token, logger):
 
     # GET 
     logger.info(f"GET contact ID: {contact_id}")
-    status, body = api_request(app_url, f"/api/contacts/{contact_id}", token=api_token)
+    status, body = get_contact(app_url, api_token, contact_id)
     assert status == 200, f"GET failed with status {status}"
     assert isinstance(body, dict), "Response body is not a dict"
     assert body.get("name") == name, f"Expected name '{name}', got '{body.get('name')}'"

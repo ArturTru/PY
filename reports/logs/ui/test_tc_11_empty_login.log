@@ -66,3 +66,7 @@
 2026-06-26 17:51:36 [INFO] Try login with empty fields
 2026-06-26 17:51:38 [INFO] Verify login page rules and HTML validation
 2026-06-26 17:51:38 [INFO] FINISH: test_tc_11_empty_login SUCCESS
+2026-06-26 18:57:32 [INFO] START: test_tc_11_empty_login
+2026-06-26 18:57:32 [INFO] Try login with empty fields
+2026-06-26 18:57:33 [INFO] Verify login page rules and HTML validation
+2026-06-26 18:57:33 [INFO] FINISH: test_tc_11_empty_login SUCCESS

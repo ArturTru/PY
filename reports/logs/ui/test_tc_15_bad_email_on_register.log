@@ -66,3 +66,7 @@
 2026-06-26 17:51:44 [INFO] Submit registration with invalid email pattern
 2026-06-26 17:51:45 [INFO] Verify stay on register page
 2026-06-26 17:51:45 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS
+2026-06-26 18:57:39 [INFO] START: test_tc_15_bad_email_on_register
+2026-06-26 18:57:39 [INFO] Submit registration with invalid email pattern
+2026-06-26 18:57:41 [INFO] Verify stay on register page
+2026-06-26 18:57:41 [INFO] FINISH: test_tc_15_bad_email_on_register SUCCESS

@@ -83,3 +83,8 @@
 2026-06-26 17:51:47 [INFO] Perform search query for name: Search 91508c
 2026-06-26 17:51:47 [INFO] Verify matched contact is visible
 2026-06-26 17:51:47 [INFO] FINISH: test_tc_16_search SUCCESS
+2026-06-26 18:57:43 [INFO] START: test_tc_16_search
+2026-06-26 18:57:43 [INFO] Add contact to search for: Search a4afdb
+2026-06-26 18:57:43 [INFO] Perform search query for name: Search a4afdb
+2026-06-26 18:57:43 [INFO] Verify matched contact is visible
+2026-06-26 18:57:43 [INFO] FINISH: test_tc_16_search SUCCESS

@@ -82,3 +82,8 @@
 2026-06-26 17:51:50 [INFO] Sort contacts list by favorite parameter
 2026-06-26 17:51:50 [INFO] Verify sorting dropdown state and card styling
 2026-06-26 17:51:50 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS
+2026-06-26 18:57:45 [INFO] START: test_tc_17_sort_by_favorite
+2026-06-26 18:57:45 [INFO] Add contact and set to favorites: Fav 6d040c
+2026-06-26 18:57:45 [INFO] Sort contacts list by favorite parameter
+2026-06-26 18:57:46 [INFO] Verify sorting dropdown state and card styling
+2026-06-26 18:57:46 [INFO] FINISH: test_tc_17_sort_by_favorite SUCCESS

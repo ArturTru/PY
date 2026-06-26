@@ -83,3 +83,8 @@ def _read_json(text):
         return json.loads(text)
     except json.JSONDecodeError:
         return None
+
+
+def get_contact(app_url, token, contact_id):
+    """Get a single contact by ID."""
+    return api_request(app_url, f"/api/contacts/{contact_id}", token=token)
