@@ -1,5 +1,5 @@
 pipeline {
-    agent none // global agetn 
+    agent none
 
     stages {
         stage('Install & Test') {
@@ -15,6 +15,7 @@ pipeline {
                     playwright install-deps chromium
                     playwright install chromium
                     pytest tests/ -v --alluredir=allure-results
+                    chmod -R 777 allure-results   # <-- добавляем эту строку
                 '''
             }
         }
@@ -22,7 +23,6 @@ pipeline {
 
     post {
         always {
-            // allure switch 
             node('') {
                 allure includeProperties: false, results: [[path: 'allure-results']]
             }
