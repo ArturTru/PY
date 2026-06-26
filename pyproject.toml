@@ -12,6 +12,7 @@ dependencies = [
     "pytest>=7.0.0",
     "pytest-timeout>=2.1.0",
     "playwright>=1.40.0",
+    "allure-pytest>=2.13.0",   # <-- добавлено
 ]
 
 [tool.setuptools]
