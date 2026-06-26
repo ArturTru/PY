@@ -1,5 +1,5 @@
 pipeline {
-    agent none // Global agetn off
+    agent none // global agetn 
 
     stages {
         stage('Install & Test') {
@@ -22,8 +22,8 @@ pipeline {
 
     post {
         always {
-            // Этот блок выполнится на самом Jenkins (вне контейнера Python), где Java доступна
-            node {
+            // allure switch 
+            node('') {
                 allure includeProperties: false, results: [[path: 'allure-results']]
             }
         }
