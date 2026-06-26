@@ -87,3 +87,11 @@
 2026-06-26 17:52:06 [INFO] Login as: testuser@example.com
 2026-06-26 17:52:07 [INFO] Logout
 2026-06-26 17:52:12 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-26 18:19:27 [INFO] START: test_tc_08_logout
+2026-06-26 18:19:27 [INFO] Login as: testuser@example.com
+2026-06-26 18:19:28 [INFO] Logout
+2026-06-26 18:19:33 [INFO] FINISH: test_tc_08_logout SUCCESS
+2026-06-26 18:20:49 [INFO] START: test_tc_08_logout
+2026-06-26 18:20:49 [INFO] Login as: testuser@example.com
+2026-06-26 18:20:50 [INFO] Logout
+2026-06-26 18:20:55 [INFO] FINISH: test_tc_08_logout SUCCESS

@@ -55,3 +55,9 @@
 2026-06-26 17:51:58 [INFO] START: test_me_with_token
 2026-06-26 17:51:58 [INFO] GET /api/auth/me with token
 2026-06-26 17:51:58 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-26 18:19:15 [INFO] START: test_me_with_token
+2026-06-26 18:19:15 [INFO] GET /api/auth/me with token
+2026-06-26 18:19:15 [INFO] FINISH: test_me_with_token SUCCESS
+2026-06-26 18:20:40 [INFO] START: test_me_with_token
+2026-06-26 18:20:40 [INFO] GET /api/auth/me with token
+2026-06-26 18:20:40 [INFO] FINISH: test_me_with_token SUCCESS

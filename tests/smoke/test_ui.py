@@ -12,7 +12,7 @@ def test_tc_01_login_page(login_page, logger):
     logger.info("START: test_tc_01_login_page")
     login_page.goto_login()
 
-    assert login_page.page.get_by_role("heading", name="Contact List App").is_visible(), "Heading missing"
+    assert login_page.page.get_by_role("heading", name="Contact List App WRONG").is_visible(), "Heading missing"
     assert login_page.page.locator(login_page.LOGIN_EMAIL).is_visible(), "Email field missing"
     assert login_page.page.locator(login_page.LOGIN_BUTTON).is_visible(), "Login button missing"
 
@@ -75,4 +75,3 @@ def test_tc_08_logout(login_page, contacts_page, logger):
 
     expect(login_page.page.locator(login_page.LOGIN_BUTTON)).to_be_visible()
     logger.info("FINISH: test_tc_08_logout SUCCESS")
-    
