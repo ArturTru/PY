@@ -1,56 +1,130 @@
-# Contact List App — автотесты
+# Контакт-лист QA автотесты
 
-Тесты для https://qa-sendbox.org/  
-Pytest + Playwright (sync), плюс несколько API-проверок.
+Проект автоматизации тестирования демо-приложения [Contact List App](https://qa-sendbox.org/) с использованием **Python**, **Pytest**, **Playwright**, **Allure** и контейнеризацией через **Docker**. Легко запускается локально, в Docker или в **Jenkins** (в репозитории уже есть `Jenkinsfile`).
 
-## Установка
+## 📌 Требования
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
+| Инструмент | Версия (рекомендуемая) |
+|------------|------------------------|
+| Python     | 3.9 – 3.12             |
+| pip        | последняя              |
+| Docker     | 20.10+ (опционально)   |
+| Docker Compose | 2.0+ (опционально) |
+| Allure CLI | 2.13+ (для локального просмотра отчётов) |
+| Jenkins    | 2.346+ (опционально)   |
+
+## 🚀 Быстрый старт (локально)
+
+1. **Клонировать репозиторий**  
+   ```bash
+   git clone https://github.com/ArturTru/PY.git
+   cd PY
+
+
+   python -m venv .venv
+source .venv/bin/activate      # Linux/macOS
+.venv\Scripts\activate        # Windows
+
 pip install -e .
+
 playwright install chromium
-```
+playwright install-deps chromium   # только для Linux
 
-## Запуск
-
-```bash
-source .venv/bin/activate
-
-# всё
 pytest tests/ -v
 
-# smoke / acceptance
-pytest tests/smoke -v -m smoke
-pytest tests/acceptance -v -m acceptance
+апуск отдельных групп (по маркерам)
+В проекте используются маркеры: smoke, acceptance, ui, api, crud, favorite, regression.
 
-# только UI или API
-pytest tests/smoke/test_ui.py tests/acceptance/test_ui.py -v
-pytest tests/smoke/test_api.py tests/acceptance/test_api.py -v
+Команда	Запускаемые тесты
+pytest -m smoke	Дымовые тесты
+pytest -m ui	Все UI-тесты
+pytest -m api	Все API-тесты
+pytest -m crud	Тесты CRUD (создание/чтение/обновление/удаление)
+pytest -m "smoke and ui"	Пересечение – дымовые UI-тесты
+pytest -m "not api"	Все тесты, кроме API
 
-# браузер видно
-HEADLESS_MODE=False pytest tests/smoke/test_ui.py -v
-```
+Allure-отчёты
+Запустить тесты с сохранением Allure-результатов
+pytest tests/ -v --alluredir=allure-results
 
-Через скрипт: `./run_tests.sh all` (или `smoke`, `acceptance`, `ui`, `api`).
+Просмотреть отчёт локально (требуется установленный Allure CLI)
+allure serve allure-results
 
-## Настройки
+Сгенерировать статический HTML-отчёт
+allure generate allure-results -o allure-report --clean
+Открой allure-report/index.html в браузере.
 
-В `config/settings.py`:
-- `APP_URL` — адрес приложения
-- `HEADLESS_MODE` — `True` по умолчанию, `False` чтобы видеть браузер
-- `SLOW_MO` — пауза между шагами в мс
 
-Тестовый пользователь: `testuser@example.com` / `Test1234`
+Запуск через Docker
+Собрать образ
 
-## Структура
+bash
+docker build -t contact-tests .
+Запустить все тесты в контейнере
 
-```
-config/settings.py
-tests/
-  smoke/test_ui.py, test_api.py
-  acceptance/test_ui.py, test_api.py
-  helpers/app_flows.py
-  helpers/api_client.py
-  conftest.py
-```
+bash
+docker run --rm -v $(pwd)/allure-results:/app/allure-results contact-tests
+Запуск с помощью Docker Compose
+
+bash
+docker-compose up --build
+(После завершения результаты Allure появятся в папке allure-results на хосте.)
+
+⚙️ Запуск в Jenkins
+В репозитории есть готовый Jenkinsfile для Declarative Pipeline.
+
+Создайте новый Pipeline-проект в Jenkins.
+
+В поле Pipeline script from SCM укажите:
+
+URL репозитория: https://github.com/ArturTru/PY.git
+
+Ветка: main
+
+Путь к Jenkinsfile: Jenkinsfile
+
+Запустите сборку.
+
+Что делает Jenkinsfile:
+
+Запускает этап Install & Test внутри Docker-контейнера с Python.
+
+Устанавливает проект в режиме разработки, браузеры Playwright.
+
+Запускает все тесты с генерацией Allure-результатов.
+
+Всегда (даже при падении тестов) публикует Allure-отчёт (требуется плагин Allure Jenkins).
+
+📂 Структура проекта
+text
+.
+├── config/                # Настройки (URL, данные)
+├── helpers/               # Вспомогательные функции (API, генераторы)
+├── pages/                 # Page Objects
+├── reports/               # Логи, скриншоты, JSON-слепки (создаётся автоматически)
+├── tests/
+│   ├── acceptance/        # Полные приёмочные сценарии (UI + API)
+│   └── smoke/             # Дымовые тесты (базовая функциональность)
+├── conftest.py            # Фикстуры, хуки для Allure-скриншотов
+├── pyproject.toml         # Зависимости и конфигурация pytest
+├── Dockerfile             # Образ для контейнеризации
+├── docker-compose.yml     # (опционально) быстрый запуск
+├── Jenkinsfile            # Pipeline для Jenkins
+└── README.md              # Этот файл
+📌 Дополнительные возможности
+Параллельный запуск – установите pytest-xdist и запустите pytest -n auto tests/ – тесты распределятся по ядрам процессора.
+
+Скриншоты при падении UI‑тестов автоматически прикрепляются к Allure-отчёту (реализовано в conftest.py).
+
+API‑падения также сохраняют JSON‑ответы в Allure.
+
+🆘 Возможные проблемы и решения
+playwright не видит браузер – выполните playwright install chromium и проверьте наличие системных зависимостей (playwright install-deps chromium).
+
+Ошибка прав при записи allure-results – в Jenkins добавлена команда chmod -R 777 allure-results (см. Jenkinsfile).
+
+Неизвестный маркер – убедитесь, что в pyproject.toml в секции markers перечислены все используемые маркеры (они уже добавлены).
+
+🤝 Вклад и поддержка
+Проект открыт для улучшений. Если вы нашли ошибку или хотите предложить новую функциональность – создайте Issue или Pull Request.
+
