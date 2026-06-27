@@ -20,19 +20,25 @@
    git clone https://github.com/ArturTru/PY.git
    cd PY
 
-
+2. Создать и активировать виртуальное окружение
    python -m venv .venv
-source .venv/bin/activate      # Linux/macOS
-.venv\Scripts\activate        # Windows
+   source .venv/bin/activate      # Linux/macOS
+   .venv\Scripts\activate        # Windows
 
-pip install -e .
+3. Установить зависимости (проект установится в режиме editable)
+   pip install -e .
 
-playwright install chromium
-playwright install-deps chromium   # только для Linux
+   playwright install chromium
+   playwright install-deps chromium   # только для Linux
 
-pytest tests/ -v
+4. Установить браузер Playwright
+   playwright install chromium
+   playwright install-deps chromium   # только для Linux
 
-апуск отдельных групп (по маркерам)
+5. Запустить все тесты
+   pytest tests/ -v
+
+Запуск отдельных групп (по маркерам)
 В проекте используются маркеры: smoke, acceptance, ui, api, crud, favorite, regression.
 
 Команда	Запускаемые тесты
@@ -44,30 +50,28 @@ pytest -m "smoke and ui"	Пересечение – дымовые UI-тесты
 pytest -m "not api"	Все тесты, кроме API
 
 Allure-отчёты
-Запустить тесты с сохранением Allure-результатов
-pytest tests/ -v --alluredir=allure-results
+1. Запустить тесты с сохранением Allure-результатов
+   pytest tests/ -v --alluredir=allure-results
 
-Просмотреть отчёт локально (требуется установленный Allure CLI)
-allure serve allure-results
+2. Просмотреть отчёт локально (требуется установленный Allure CLI)
+   allure serve allure-results
 
-Сгенерировать статический HTML-отчёт
-allure generate allure-results -o allure-report --clean
-Открой allure-report/index.html в браузере.
-
+3. Сгенерировать статический HTML-отчёт
+   allure generate allure-results -o allure-report --clean
+   Открой allure-report/index.html в браузере.
 
 Запуск через Docker
-Собрать образ
+1. Собрать образ
+   docker build -t contact-tests .
 
-bash
-docker build -t contact-tests .
-Запустить все тесты в контейнере
+2. Запустить все тесты в контейнере
+   docker run --rm -v $(pwd)/allure-results:/app/allure-results contact-tests
 
 bash
 docker run --rm -v $(pwd)/allure-results:/app/allure-results contact-tests
-Запуск с помощью Docker Compose
 
-bash
-docker-compose up --build
+3. Запуск с помощью Docker Compose
+   docker-compose up --build
 (После завершения результаты Allure появятся в папке allure-results на хосте.)
 
 ⚙️ Запуск в Jenkins
@@ -95,22 +99,7 @@ URL репозитория: https://github.com/ArturTru/PY.git
 
 Всегда (даже при падении тестов) публикует Allure-отчёт (требуется плагин Allure Jenkins).
 
-📂 Структура проекта
-text
-.
-├── config/                # Настройки (URL, данные)
-├── helpers/               # Вспомогательные функции (API, генераторы)
-├── pages/                 # Page Objects
-├── reports/               # Логи, скриншоты, JSON-слепки (создаётся автоматически)
-├── tests/
-│   ├── acceptance/        # Полные приёмочные сценарии (UI + API)
-│   └── smoke/             # Дымовые тесты (базовая функциональность)
-├── conftest.py            # Фикстуры, хуки для Allure-скриншотов
-├── pyproject.toml         # Зависимости и конфигурация pytest
-├── Dockerfile             # Образ для контейнеризации
-├── docker-compose.yml     # (опционально) быстрый запуск
-├── Jenkinsfile            # Pipeline для Jenkins
-└── README.md              # Этот файл
+
 📌 Дополнительные возможности
 Параллельный запуск – установите pytest-xdist и запустите pytest -n auto tests/ – тесты распределятся по ядрам процессора.
 
