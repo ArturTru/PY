@@ -32,3 +32,6 @@ reports/
 # Allure reports
 allure-results/
 allure-report/
+
+#egg
+contact_list_qa.egg-info/
